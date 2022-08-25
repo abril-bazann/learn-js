@@ -42,7 +42,10 @@ console.log(messegeToUser)
 
 // create a variable, messegeToUser, that contains the message we have logged
 
-
+let name="April"
+let greeting= "Hi! My name is "
+let myGretting= greeting + name
+console.log(myGretting)
 
 
 
