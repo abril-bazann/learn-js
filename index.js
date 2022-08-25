@@ -5,16 +5,16 @@
 // console.log(contar)
 
 
-//create a function that logs out the sum of all lap times
-//call/invoke the function
-let lap1=34
-let lap2=33
-let lap3=36
+//create a function that increments the lapsCompleted with one
+//run it three times
+let lapsCompleted=0
 
-function logLapTime(){
-    let totalTime=lap1+lap2+lap3
-    console.log(totalTime)
+function incrementLap(){
+    lapsCompleted= lapsCompleted+1
 }
+incrementLap()
+incrementLap()
+incrementLap()
 
-logLapTime()
+console.log(incrementLap)
 
