@@ -1,20 +1,22 @@
 // document.getElementById("count-el").innerText=5
 // cmd + k + c
-// let contar = 5
-// contar = contar + 1
-// console.log(contar)
 
 
-//create a function that increments the lapsCompleted with one
-//run it three times
-let lapsCompleted=0
+//init the count as 0
+//listen for clicks on the increment btn
+//increment the count var when the btn is clicked
+//change the count-el in the HTML to reflect the new count
+//camelCase for vars
 
-function incrementLap(){
-    lapsCompleted= lapsCompleted+1
-}
-incrementLap()
-incrementLap()
-incrementLap()
+let countEl=document.getElementById("count-el") //pass in arg
 
-console.log(incrementLap)
+let count=0
+
+function increment(){
+    count= count+1
+    countEl.innerText=count
+} 
+
+
+
 
