@@ -32,6 +32,17 @@ function save(){
 
 //create a fuction, save() which logs out the count when it is called
 
+//strings
+let username="April"
+//create a variable, message, that stores the string: "You have three new notifications"
+let message="You have three new notifications"
+
+let messegeToUser= message + ", " + username + "!"
+console.log(messegeToUser)
+
+// create a variable, messegeToUser, that contains the message we have logged
+
+
 
 
 
