@@ -39,3 +39,11 @@ button {
     background: rgb(64, 208, 64);
 }
 
+#welcome-el{
+    color: white;
+}
+
+#save-el{
+    color: white;
+    background-color: rgb(51, 29, 70);
+}
