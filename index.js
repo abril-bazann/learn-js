@@ -40,12 +40,7 @@ let message="You have three new notifications"
 let messegeToUser= message + ", " + username + "!"
 console.log(messegeToUser)
 
-// create a variable, messegeToUser, that contains the message we have logged
 
-let name="April"
-let greeting= "Hi! My name is "
-let myGretting= greeting + name
-console.log(myGretting)
 
 // let points = 4
 // let bonusPoints= "10"
@@ -54,8 +49,20 @@ console.log(myGretting)
 
 // console.log(totalPoints)
 
+// Grab the welcome-el paragraph and store it in a variable called welcomeEl
 
+// Create two variables (name & greeting) that contains your name
+// and the greeting we want to render on the page
 
+// Render the welcome message using welcomeEl.innerText
+
+let welcomeEl= document.getElementById("welcome-el")
+let name="April"
+let greeting= "Welcome back "
+
+welcomeEl.innerText=greeting + name
+
+welcomeEl.innerText += "! ✨"
 
 
 
