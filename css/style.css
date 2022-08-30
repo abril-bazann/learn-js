@@ -1,6 +1,7 @@
 body {
     background-image: url("/assets/img/galaxy.jpg");
     background-repeat: no-repeat;
+    background-attachment: scroll, local;
     background-size: cover;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
@@ -29,6 +30,7 @@ button {
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
+    background-color: blue;
 }
 
 #increment-btn {
@@ -46,4 +48,28 @@ button {
 #save-el{
     color: white;
     backdrop-filter: blur(70px);
+}
+
+#name-el{
+    color: rgb(255, 255, 255);
+}
+
+img{
+    height: 5rem;
+    width: 5rem;
+}
+
+.nike-btn{
+    background-color: rgb(58, 58, 230);
+    backdrop-filter: blur(70px);
+    color: white;
+}
+
+#error{
+    color: white;
+    text-decoration: underline red;
+}
+
+#sum-el{
+    color: white;
 }

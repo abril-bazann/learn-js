@@ -36,9 +36,68 @@ let welcomeEl= document.getElementById("welcome-el")
 let name="April"
 let greeting= "Welcome back "
 
-welcomeEl.innerText=greeting + name
+welcomeEl.textContent=greeting + name
+// add emoji
+welcomeEl.textContent += "! ✨"
 
-welcomeEl.innerText += "! ✨"
+//PRACTICE TIME
+//greetings
+let firstName= "Abril"
+let lastName= "Bazán"
+let fullName=document.getElementById("name-el")
 
+fullName.textContent= firstName+" "+lastName
 
+//greeting with func
+let User="Linda"
+let greetingUser="Hey there"
 
+function greetingLinda(){
+    console.log(greetingUser+ ", "+ User + "!")
+}
+greetingLinda()
+
+//2 func. add/remove points
+let myPoints=3
+function add3Points(){
+    myPoints+=3
+}
+add3Points()
+
+function remove1Point(){
+     myPoints-=1
+}
+//logs out 10
+add3Points()
+add3Points()
+remove1Point()
+remove1Point()
+console.log(myPoints)
+
+console.log("2"+2)//"22"
+console.log(11+7)//18
+console.log(6+"5")//"65"
+console.log("My points: "+5+9)//"My points: 59"
+console.log(2+2)//4
+console.log("11"+"14")//"1114"
+
+//Rendering error message when you click the btn
+let errorParagraph=document.getElementById("error")
+let message="Something went wrong, please try again"
+
+function errorMessage(){
+    errorParagraph.textContent=message
+    console.log(message)
+} 
+
+//calculator challenge
+let num1=8
+let num2=2
+
+document.getElementById("num1-el").textContent=num1
+
+document.getElementById("num2-el").textContent=num2
+
+function add(){
+    let addNum=num1+num2
+}
