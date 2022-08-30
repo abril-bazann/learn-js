@@ -45,5 +45,5 @@ button {
 
 #save-el{
     color: white;
-    background-color: rgb(51, 29, 70);
+    backdrop-filter: blur(70px);
 }
