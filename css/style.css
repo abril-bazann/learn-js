@@ -73,3 +73,28 @@ img{
 #sum-el{
     color: white;
 }
+
+.btn-header{
+    color: white;
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0.5rem;
+    justify-content: space-between
+}
+
+header button{
+    background-color: black;
+    margin: 1rem;
+}
+
+.nike-shoe{
+    color: white;
+}
+
+#num1-el, #num2-el{
+    color: white;
+}

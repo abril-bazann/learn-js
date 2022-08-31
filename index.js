@@ -81,23 +81,4 @@ console.log("My points: "+5+9)//"My points: 59"
 console.log(2+2)//4
 console.log("11"+"14")//"1114"
 
-//Rendering error message when you click the btn
-let errorParagraph=document.getElementById("error")
-let message="Something went wrong, please try again"
 
-function errorMessage(){
-    errorParagraph.textContent=message
-    console.log(message)
-} 
-
-//calculator challenge
-let num1=8
-let num2=2
-
-document.getElementById("num1-el").textContent=num1
-
-document.getElementById("num2-el").textContent=num2
-
-function add(){
-    let addNum=num1+num2
-}
